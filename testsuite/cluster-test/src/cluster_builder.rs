@@ -68,7 +68,7 @@ impl ClusterBuilderParams {
     }
 
     pub fn enable_lsr(&self) -> bool {
-        self.enable_lsr.unwrap_or(true)
+        self.enable_lsr.unwrap_or(false)
     }
 }
 
